@@ -2,7 +2,7 @@
   "name": "elmtailwind",
   "version": "1.0.0",
   "description": "",
-  "main": "elm.js",
+  "main": "src/elm.js",
   "scripts": {
     "start": "elm-live src/Main.elm --pushstate --open --start-page=index.html --dir=./src -- --output=src/elm.js --debug",
     "watch:css": "tailwindcss -i ./src/tailwind.css -o ./src/tailwind.build.css --watch",
